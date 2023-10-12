@@ -1,0 +1,69 @@
+.swatch-container {
+   position: relative;
+   padding: 4px 4px 4px 6px;
+   margin: 4px;
+   gap: 4px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 12px;
+   z-index: 1;
+   background-color: rgb(255, 255, 255);
+   border: 0.5px solid rgb(190, 200, 219);
+   border-radius: 100px;
+   cursor: pointer;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+
+   @media (min-width: 600px) {
+      height: 20px;
+   }
+}
+
+.swatch__text {
+   font-size: 8px;
+   font-weight: bold;
+   line-height: 10px;
+   color: rgb(79, 96, 118);
+
+   @media (min-width: 600px) {
+      font-size: 10px;
+   }
+}
+
+.swatch__colour {
+   height: 12px;
+   width: 12px;
+   border-radius: 100%;
+
+   @media (min-width: 600px) {
+      width: 20px;
+      height: 20px;
+   }
+}
+
+/* colours */
+.swatch__colour.oak {
+   background-color: rgb(221, 181, 134);
+}
+.swatch__colour.walnut {
+   background-color: rgb(88, 47, 17)
+   ;
+}
+.swatch__colour.blackwood {
+   background-color: rgb(10, 4, 1);
+}
+.swatch__colour.espresso {
+   background-color: rgb(68, 33, 9);
+}
+.swatch__colour.eclipse {
+   background-color: rgb(29, 29, 29);
+}
+.swatch__colour.twilight {
+   background-color: rgb(153, 153, 153);
+}
+.swatch__colour.solstice {
+   background-color: rgb(248, 248, 248);
+}
+

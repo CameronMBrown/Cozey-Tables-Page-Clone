@@ -1,0 +1,33 @@
+.product__customize {
+   color: rgb(105, 162, 255);
+   font-size: 8px;
+   font-weight: 700;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+
+   @media ( min-width: 375px ) {
+      font-size: 9px;
+   }
+   @media (min-width: 425px) {
+      font-size: 10px;
+   }
+   @media (min-width:600px) {
+      font-size: 14px;
+   }
+}
+
+.product__customize--arrow {
+   height: 12px;
+   width: 12px;
+   top: -1.5px;
+   right: -2px;
+   transform: scale(0.7);
+
+   @media (min-width:600px) {
+      width: 24px;
+      height: 20px;
+      transform: unset;
+      margin-top: 2px;
+   }
+}

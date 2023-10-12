@@ -1,0 +1,19 @@
+.app-container {
+  background-color: rgb(247, 248, 246);
+}
+
+.section-wrapper {
+  position: relative;
+}
+
+.ref-div {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  transform: translateY(10%);
+}
+
+.page-content {
+  padding-top: 60px;
+  position: relative;
+}

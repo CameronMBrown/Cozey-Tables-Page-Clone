@@ -1,0 +1,13 @@
+.chevron {
+   box-sizing: border-box;
+   padding: 5px;
+   transition: 0.5s ease-in;
+}
+
+.chevron.open {
+   transform: rotate(-90deg);
+}
+
+.chevron.closed {
+   transform: rotate(90deg);
+}
